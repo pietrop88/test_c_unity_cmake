@@ -26,8 +26,6 @@ jobs:
 
     - name: Compile for tests
       run: |
-        mkdir build
-        cd build
         cmake -DTARGET_GROUP=test ..
         make
 
