@@ -1,0 +1,9 @@
+language: c
+dist: bionic
+sudo: false
+compiler:
+- gcc
+script:
+- cmake -DTARGET_GROUP=test .
+- make
+- ctest --verbose
