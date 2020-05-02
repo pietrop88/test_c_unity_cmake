@@ -8,6 +8,6 @@ addons:
     organization: pietrop88-github
 script:
 - cmake -DTARGET_GROUP=test .
-- make
+- build-wrapper-linux-x86-64 --out-dir bw-output make
 - ctest --verbose
 - sonar-scanner
