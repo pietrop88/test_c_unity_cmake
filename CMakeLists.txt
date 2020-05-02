@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17)
+cmake_minimum_required(VERSION 3.1)
 
 project(test_c VERSION 1.0 DESCRIPTION "A test project in C language with Unity test framework" LANGUAGES C)
 
