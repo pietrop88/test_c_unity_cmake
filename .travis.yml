@@ -13,5 +13,5 @@ script:
 - cd ..
 - build-wrapper-linux-x86-64 --out-dir bw-output cmake --build build/
 - cd build && ctest && cd ..
-- cd build && ../coverage_gcov.sh && cd ..
+- cd build && ../coverage_ci_sonar.sh && cd ..
 - sonar-scanner
