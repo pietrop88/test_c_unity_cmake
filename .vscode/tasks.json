@@ -26,6 +26,18 @@
 				"panel": "shared",
 				"clear": true
 			}
+		},
+		{
+			"label": "Build debug",
+			"type": "shell",
+			"command": "${workspaceFolder}/.vscode/buildDebug.sh",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"clear": true
+			}
 		}
 	]
 }
