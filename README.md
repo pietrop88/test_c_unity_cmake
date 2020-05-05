@@ -14,7 +14,4 @@ This is also a test for Travis CI and SonarCloud integration.
 <a href="https://sonarcloud.io/component_measures?id=test_c_unity_cmake&metric=coverage&view=list">
     <img alt="Sonar Coverage" src="https://img.shields.io/sonar/coverage/test_c_unity_cmake?server=https%3A%2F%2Fsonarcloud.io&style=for-the-badge"/>
 </a>
-<a href="https://sonarcloud.io/component_measures?id=test_c_unity_cmake&metric=ncloc&view=list">
-    <img alt="Made with C" src="https://forthebadge.com/images/badges/made-with-c.svg"/>
-</a>
 </p>
