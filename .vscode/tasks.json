@@ -6,7 +6,7 @@
 		{
 			"label": "Run ctest -VV",
 			"type": "shell",
-			"command": "${workspaceFolder}/.vscode/runTests.sh",
+			"command": "${workspaceFolder}/.vscode/run_tests.sh",
 			"presentation": {
 				"reveal": "always",
 				"focus": false,
@@ -18,7 +18,19 @@
 		{
 			"label": "Run release",
 			"type": "shell",
-			"command": "${workspaceFolder}/.vscode/runRelease.sh",
+			"command": "./build/src/main",
+			"group": "none",
+			"presentation": {
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"clear": true
+			}
+		},
+		{
+			"label": "Build release",
+			"type": "shell",
+			"command": "${workspaceFolder}/.vscode/build_release.sh",
 			"group": "build",
 			"presentation": {
 				"reveal": "always",
@@ -28,9 +40,21 @@
 			}
 		},
 		{
-			"label": "Build debug",
+			"label": "Build release in debug mode",
 			"type": "shell",
-			"command": "${workspaceFolder}/.vscode/buildDebug.sh",
+			"command": "${workspaceFolder}/.vscode/build_release_debug.sh",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"clear": true
+			}
+		},
+		{
+			"label": "Build tests in debug mode",
+			"type": "shell",
+			"command": "${workspaceFolder}/.vscode/build_tests_debug.sh",
 			"group": "build",
 			"presentation": {
 				"reveal": "always",
