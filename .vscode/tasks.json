@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+		{
+			"label": "Run ctest -VV",
+			"type": "shell",
+			"command": "${workspaceFolder}/.vscode/runTests.sh",
+			"presentation": {
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"clear": true
+			},
+			"group": "test"
+		},
+		{
+			"label": "Run release",
+			"type": "shell",
+			"command": "${workspaceFolder}/.vscode/runRelease.sh",
+			"group": "build",
+			"presentation": {
+				"reveal": "always",
+				"focus": false,
+				"panel": "shared",
+				"clear": true
+			}
+		}
+	]
+}
