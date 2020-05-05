@@ -2,7 +2,7 @@
 
 A very simple project to test [cmake](https://cmake.org/) and the [Unity test framework](http://www.throwtheswitch.org/unity/) with the C language.
 ~~This is also a test for the [Github Actions](https://github.com/features/actions).~~
-This is also a test for Travis CI and SonarCloud integration.
+This is also a test for Travis CI, SonarCloud integration and VSCode integration.
 
 <p align="center">
 <a href="https://sonarcloud.io/dashboard?id=test_c_unity_cmake">
