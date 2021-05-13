@@ -1,6 +1,9 @@
 #include "sum.h"
 #include "unity.h"
 
+void setUp(void) {}
+void tearDown(void) {}
+
 void sum_positive() {
   TEST_ASSERT_EQUAL_INT(3, sum(1, 2));
   TEST_ASSERT_EQUAL_INT(13, sum(10, 3));
